@@ -26,8 +26,14 @@ body, html {
     opacity: 60%;
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .main-logo {
-    width: 34%;
+    height: 34%;
     padding: 4%;
     margin: auto;
     display: block;
