@@ -4,13 +4,20 @@ body, html {
 }
 
 .fa-brands {
-    padding: 10px;
+    padding: 20px;
     font-size: 64px;
     width: 64px;
+    height: 64px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     color: white;
+    display: inline-block;
+}
+
+.fa-brands:hover {
+    opacity: 80%;
+    scale: 1.05;
 }
 
 .background {
