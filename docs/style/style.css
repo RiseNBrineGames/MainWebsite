@@ -5,6 +5,7 @@ body, html {
 
 html {
     background: black;
+    overflow-x: hidden;
 }
 
 .fa-brands {
@@ -31,11 +32,16 @@ html {
     z-index: -10;
     overflow: hidden;
     background: black;
-    background-image: url(../asset/Tfotr_keyart.png);
+    background-image: url(/asset/Tfotr_keyart.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 40%;
+}
+
+.team {
+    background-image: url(/asset/team_bg.png);
+    opacity: 100%;
 }
 
 main {
@@ -60,8 +66,92 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: 10px 0 10px 40px;
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    background-image: url(../asset/Tfotr_itch_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .media-links {
     width: fit-content;
     margin: auto;
     display: block;
+}
+
+div.team-scroller {
+    overflow: visible;
+    white-space: nowrap;
+    height: 70vh;
+    width: 60vw;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+article.team-card {
+    display: inline-block;
+    height: 60vh;
+    width: 40vh;
+    background-color: black;
+    padding: 2vh;
+    border-radius: 2vh;
+    position: absolute;
+    left: calc(var(--i) * 14vh);
+    z-index: calc(var(--i) * -1);
+    border: solid 1vh gold;
+    filter: brightness(0.5);
+}
+
+article.team-card:hover {
+    z-index: 0;
+    filter: brightness(1);
+    transform: scale(1.2);
+}
+
+.team-card h1 {
+    writing-mode: vertical-lr;
+}
+
+.team-card section {
+    display: inline;
+    position: absolute;
+}
+
+.team-card section img {
+    height: 10vh;
+    width: 10vh;
+}
+
+article.team-card p {
+    color: white;
+    text-wrap: auto;
+}
+
+.team-photo {
+    display: inline-block;
+    height: 30vh;
+    width: 30vh;
+}
+
+.team title {
+    display: block;
+    font-size: 14vh;
+    font-weight: bold;
+    color: wheat;
+    margin: auto;
+    width: fit-content;
 }

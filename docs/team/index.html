@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise & Brine Team</title>
+    <link rel="shortcut icon" href="asset/favsquid.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header class="background team">
+        <title>Meet the Team!</title>
+    </header>
+    <main>
+        <div class="team-scroller">
+            <article id="tc-1" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/artist.svg" alt="ART">
+                        <h1>Ker</h1>
+                    </section>
+                </aside>
+                <p>3D generalist, part time character concept-er… I like to, uh ... sorry I'm distracted browsing local fish store websites, I'll think of a bio later.</p>
+            </article>
+            <article id="tc-2" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/programmer.svg" alt="PGR">
+                        <h1>Liam</h1>
+                    </section>
+                </aside>
+                <p>Liam, the self-proclaimed Unreal wizard, creator and destroyer of bugs, derailer of team meetings. When he's not swimming in lines of code, you can find him playtesting a large number of 'other' side projects until his scales fall off.</p>
+            </article>
+            <article id="tc-3" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/artist.svg" alt="ART">
+                        <h1>Mai</h1>
+                    </section>
+                </aside>
+                <p>From the concept art to the corners of the UI, you can find Mai sketching up something new (as long as you can get her away from her massive board game collection). In the world of the 2D, Mai rules supreme.</p>
+            </article>
+            <article id="tc-4" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/business.svg" alt="BUS">
+                        <h1>Max</h1>
+                    </section>
+                </aside>
+                <p>I like cool games, I tell great jokes (just don't ask anyone else), I run our business-y things, and do most of the writing. If I'm not here, I'm probably trying to 100% some game with broken achievements or talking someone's ears off about physics.</p>
+            </article>
+            <article id="tc-5" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/programmer.svg" alt="PGR">
+                        <h1>Rex</h1>
+                    </section>
+                </aside>
+                <p>Director of technical squidding, Rex puts the merge in merge conflict. Wait, that's not a good thing. Uhhh... We can fix it later.</p>
+            </article>
+            <article id="tc-6" class="team-card">
+                <aside>
+                    <img class="team-photo" src="" alt="">
+                    <section>
+                        <img src="/asset/audio.svg" alt="AUD">
+                        <h1>Sebastian</h1>
+                    </section>
+                </aside>
+                <p>Bringing the beats and the thunder... sound effects. Sebastian loves audio more than Max loves Steam achievements. 🇨🇴</p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <h2>CONTACT</h2>
+        <ul>
+            <li>riseandbrinegames@gmail.com</li>
+        </ul>
+    </footer>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.team-card').forEach((el, i) => {
+      el.style.setProperty('--i', i);
+    });
+  });
+</script>
+</html>
