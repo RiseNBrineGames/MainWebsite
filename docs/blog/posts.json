@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Hello World",
+        "file": "hello-world.md",
+        "date": "2025-09-19"
+    },
+    {
+        "title": "Hello World",
+        "file": "hello-world.md",
+        "date": "2025-09-19"
+    },
+    {
+        "title": "First news",
+        "file": "something.md",
+        "date": "2025-09-20"
+    }
+]

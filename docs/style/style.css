@@ -170,4 +170,55 @@ main.team {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+}
+
+#newspaper {
+    width: 80vw;
+    height: 80vh;
+    margin-inline: auto;
+    background: wheat;
+    padding: 20px;
+}
+
+#newspaper iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#post-list {
+    margin: 2px 0;
+    padding: 0;
+}
+
+#post-list li {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    width: 80vw;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+#post-list li:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+#mail-signup {
+    padding: 15px;
+    background: red;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    margin-inline: auto;
+    width: fit-content;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset -1px -1px 15px 1px #929292;
+}
+
+#mail-signup:hover {
+    box-shadow: inset -1px -1px 15px 1px #000;
 }
