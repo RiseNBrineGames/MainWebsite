@@ -9,6 +9,12 @@
     <script src="/script/blog.js" defer></script>
 </head>
 <body>
+    <section id="newspaper" hidden>
+        <button onclick="closePost()">
+            <img src="/asset/Continue_button.png" alt=">">
+        </button>
+        <iframe id="news-source" src="post.html" frameborder="0"></iframe>
+    </section>
     <main class="team">
         <nav>
             <a href="/">HOME</a>
@@ -18,9 +24,6 @@
         <h1>News Letter</h1>
         <a id="mail-signup" href="https://forms.gle/ugwNH2dThaCQQXiT9" target="_blank" rel="noopener noreferrer">SIGN UP FOR<br>MAILING LIST!</a>
         <ul id="post-list">Loading news...</ul>
-        <section id="newspaper" hidden>
-            <iframe id="news-source" src="post.html" frameborder="0"></iframe>
-        </section>
     </main>
     <footer>
         <h2>CONTACT</h2>

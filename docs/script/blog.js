@@ -28,6 +28,10 @@ function openPost(file) {
     newsSource.src = "/blog/post.html?file="+file;
     newspaper.scrollIntoView({behavior: "smooth"});
 }
+function closePost() {
+    newspaper.hidden = true;
+}
+
 
 // --- SINGLE POST VIEW (post.html) ---
 const contentDiv = document.getElementById("content");
