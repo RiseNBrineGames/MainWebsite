@@ -217,6 +217,16 @@ main.team {
     background-color: white;
     width: 80vw;
     margin-inline: auto;
+}
+
+#post-list li:hover {
+    filter: brightness(70%);
+}
+
+#post-list li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     padding: 20px;
 }
 
