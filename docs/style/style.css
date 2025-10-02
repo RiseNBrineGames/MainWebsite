@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 body, html {
+    font-family: 'Signika Negative';
     padding: 0;
     margin: 0;
 }
@@ -113,55 +116,13 @@ div.team-scroller {
 
 article.team-card {
     display: inline-block;
-    height: 40vh;
-    width: 40vh;
-    padding: 2vh;
-}
-
-.team-card aside {
-    background: white;
-    border-radius: 25px;
-    box-shadow: 4px 2px 5px black;
-    padding: 2vh;
     transform: rotate(calc(var(--i) * 1deg));
-}
-
-.team-card h1 {
-    writing-mode: vertical-lr;
-    font-size: 7vh;
-    color: gray;
-    margin: 0;
-}
-
-.team-card section {
-    display: inline;
-    position: absolute;
-    
-}
-
-.team-card section img {
-    height: 8vh;
-    width: 8vh;
-}
-
-article.team-card p {
-    color: gray;
-    text-wrap: auto;
+    padding: 2vh;
 }
 
 .team-photo {
-    display: inline-block;
-    height: 24vh;
-    width: 24vh;
-}
-
-.team title {
-    display: block;
-    font-size: 14vh;
-    font-weight: bold;
-    color: wheat;
-    margin: auto;
-    width: fit-content;
+    height: 491px;
+    width: 344px;
 }
 
 main.team {
@@ -179,6 +140,7 @@ main.team {
     height: 100%;
     align-content: center;
     background: #000000A9;
+    z-index: 1;
 }
 
 #newspaper iframe {
@@ -206,8 +168,11 @@ main.team {
 }
 
 #post-list {
-    margin: 2px 0;
+    margin: 2px auto;
     padding: 0;
+    width: fit-content;
+    border: solid 2px lightblue;
+    border-radius: 1vw;
 }
 
 #post-list li {
@@ -234,9 +199,19 @@ main.team {
     background-color: whitesmoke;
 }
 
+#post-list li:first-child {
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+}
+
+#post-list li:last-child {
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+
 #mail-signup {
     padding: 15px;
-    background: red;
+    background: darkred;
     margin: 0 0 20px 0;
     border-radius: 20px;
     margin-inline: auto;
@@ -245,10 +220,15 @@ main.team {
     text-align: center;
     color: white;
     text-decoration: none;
-    box-shadow: inset -1px -1px 15px 1px #929292;
+    box-shadow: inset -1px -1px 15px 1px #92929266;
 }
 
 #mail-signup:hover {
-    box-shadow: inset -1px -1px 15px 1px #000;
+    color: ghostwhite;
+    box-shadow: inset -1px -1px 15px 1px #0006;
 }
 
+.engrave {
+    color: #000;
+    opacity: 50%;
+}
