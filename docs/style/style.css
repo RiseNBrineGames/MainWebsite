@@ -232,3 +232,7 @@ main.team {
     color: #000;
     opacity: 50%;
 }
+
+.contact a {
+    color: white;
+}
