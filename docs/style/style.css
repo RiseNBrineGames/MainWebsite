@@ -32,6 +32,7 @@ nav {
     padding: 2vw 0 0 0;
     margin: auto;
     width: fit-content;
+    height: 4vh;
 }
 
 nav a {
@@ -60,9 +61,15 @@ nav a:hover {
     opacity: 40%;
 }
 
-main {
+.page-sizer {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 96vh;
     overflow: hidden;
 }
 
