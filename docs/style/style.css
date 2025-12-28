@@ -243,3 +243,19 @@ main.team {
 .contact a {
     color: white;
 }
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: xx-large;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    .media-links {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
